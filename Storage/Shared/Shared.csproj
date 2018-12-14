@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\README.md">
+        <Link>README.md</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
